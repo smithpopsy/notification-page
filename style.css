@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --red: hsl(1, 90%, 64%);
+    --blue: hsl(219, 85%, 26%);
+    --white: hsl(0, 0%, 100%);
+    --very-light-grayish-blue: hsl(210, 60%, 98%);
+    --light-grayish-blue-1: hsl(211, 68%, 94%);
+    --light-grayish-blue-2: hsl(205, 33%, 90%);
+    --grayish-blue: hsl(219, 14%, 63%);
+    --dark-grayish-blue: hsl(219, 12%, 42%);
+    --very-dark-blue: hsl(224, 21%, 14%);
+    --ff-plus-Jakarta-Sans: "Plus Jakarta Sans", sans-serif;
+}
+    
+
+html,body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    /* border: 2px solid blue; */
+    background-color: var(--very-light-grayish-blue);
+}
+
+body{
+    font-family: var(--ff-plus-Jakarta-Sans);
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    /* border: 2px solid purple; */
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0;
+    width: 98%;
+    background-color: var(--white);
+}
+
+.notify{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+
+div h3{
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--very-dark-blue);
+}
+
+.number3{
+    background-color: var(--blue);
+    width: 30px;
+    height: 25px;
+    color: var(--white);
+    /* border: 1px solid pink; */
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.not{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.mark p{
+    color: var(--grayish-blue);
+    font-weight: 500;
+}
+
+.mark p:hover{
+    cursor: pointer;
+    color: var(--blue);
+    font-weight: 800;
+}
+
+.firstNote{
+    display: flex;
+    gap: 7px;
+    margin-top: 10px;
+    background-color: var(--very-light-grayish-blue);
+    border-radius: 10px;
+    padding:13px 10px 6px ;
+}
+
+img{
+    width: 45px;
+    height: 45px;
+}
+
+
+
+
+.p {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--dark-grayish-blue);
+    /* border: 1px solid blue; */
+}
+
+.webber {
+    font-size: 14px;
+    font-weight: 800;
+    color: var(--very-dark-blue);
+    /* border: 1px solid red; */
+    padding-right: 2px;
+}
+
+
+
+
+.angie:hover{
+    cursor: pointer;
+    color: var(--blue);
+    font-weight: 800;
+}
+
+.my{
+    color: var(--dark-grayish-blue);
+    font-weight: 800;
+    /* border: 1px solid black; */
+}
+
+.my:hover{
+    color: var(--blue);
+    font-weight: 800;
+    cursor: pointer;
+    
+}
+
+.ago{
+    margin-top: 3px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--grayish-blue);
+}
+
+.secondNote{
+    display: flex;
+    gap: 7px;
+    margin-top: 12px;
+    background-color: var(--very-light-grayish-blue);
+    border-radius: 10px;
+    padding:13px 10px 6px ;
+}
+
+.thirdNote{
+    display: flex;
+    gap: 7px;
+    margin-top: 12px;
+    background-color: var(--very-light-grayish-blue);
+    border-radius: 10px;
+    padding:13px 10px 6px ;
+}
+
+.chess{
+    font-weight: 800;
+    color: var(--blue);
+}
+.Chess:hover{
+    cursor: pointer;
+    color: var(--blue);
+
+}
+
+.fourthNote{
+    display: flex;
+    gap: 7px;
+    margin-top: 12px;
+    /* background-color: var(--very-light-grayish-blue); */
+    border-radius: 10px;
+    padding:13px 10px 6px ;
+}
+
+#text{
+    border: 1px solid transparent;
+    border-color:  var(--grayish-blue);
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 16px;
+    font-weight: 500;
+    color: var(--dark-grayish-blue);
+    margin-top: 13px;
+}
+
+#text:hover{
+    cursor: pointer;
+    background-color: var(--very-light-grayish-blue);
+
+}
+
+
+.fifthNote{
+    display: flex;
+    justify-content: space-between;
+    gap: 7px;
+    margin-top: 12px;
+    /* background-color: var(--very-light-grayish-blue); */
+    border-radius: 10px;
+    padding:13px 10px 6px ;
+}
+
+#change{
+    display: flex;
+    gap: 7px;
+}
+
+
+.sixthNote{
+    display: flex;
+    gap: 7px;
+    margin-top: 12px;
+    /* background-color: var(--very-light-grayish-blue); */
+    border-radius: 10px;
+    padding:13px 10px 6px ;
+}
+
+.seventhNote{
+    display: flex;
+    gap: 7px;
+    margin-top: 12px;
+    /* background-color: var(--very-light-grayish-blue); */
+    border-radius: 10px;
+    padding:13px 10px 6px ;
+}
+
+@media(min-width:768px){
+    /* main{
+        width: 70%;
+    } */
+
+    section{
+        padding: 1.5rem;
+        width: 70%;
+    }
+
+}
